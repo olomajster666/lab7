@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+<meta charset="UTF-8">
+<title>siema zenia</title>
+
+</head>
+
+<body>
+    <form>
+        <p>Imie: </p>
+        <input id="imie" name="imie" required/></br> 
+
+        <p>Nazwisko: </p>
+        <input id="nazwisko" name="nazwisko" required/></br>
+
+        <p>Email: </p>
+        <input id="mail" name="email" required/></br>
+
+        <p>Haslo: </p>
+        <input id="haslo" name="haslo" type="password" required minlength="8"/>
+
+        <p>Plec: </p>
+        <input id="plec" type="radio" id="m" name="plec" value="M" />
+        <label for="m">M</label><br>
+        <input id="plec" type="radio" id="f" name="plec" value="F" />
+        <label for="f">F</label><br></br>
+
+        <p>telefon: </p>
+        <input id="tel" name="telefon" type="number" required/></br>
+
+        <p>data: </p>
+        <input id="data" name="data" type="date" required/></br>
+
+        <p>kraj: </p>
+        <select id="kraj" name="kraj" required>
+            <option></option>
+            <option value="polska">Polska</option>
+            <option value="niemcy">Niemcy</option>
+            <option value="ukraina">Ukraina</option>
+
+        </select></br>
+
+        <input name="zapisz" type="submit" vaule="Zapisz" />
+
+    </form>
+
+
+</body>
+
+</html>
