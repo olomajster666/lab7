@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+<meta charset="UTF-8">
+<title>siema zenia</title>
+<script type = "text/javascript" src=js.js></script>
+
+</head>
+
+<body>
+    <form id="formularz">
+        <p>Imie: </p>
+        <input id="imie" name="imie" /></br> 
+
+        <p>Nazwisko: </p>
+        <input id="nazwisko" name="nazwisko" /></br>
+
+        <p>Email: </p>
+        <input id="mail" name="email" /></br>
+
+        <p>Haslo: </p>
+        <input id="haslo" name="haslo" type="password"/>
+		
+		<p>Powtórz Haslo: </p>
+        <input id="haslo2" name="haslo2" type="password"/>
+		
+        <p>Plec: </p>
+        <input id="plec" type="radio" id="m" name="plec" checked/>
+        <label for="m">M</label><br>
+        <input id="plec" type="radio" id="f" name="plec"/>
+        <label for="f">F</label><br></br>
+
+        <p>telefon: </p>
+        <input id="tel" name="telefon" type="number" /></br>
+
+        <p>data: </p>
+        <input id="data" name="data" type="date" /></br>
+
+        <p>kraj: </p>
+        <select id="kraj" name="kraj" >
+            <option></option>
+            <option value="polska">Polska</option>
+            <option value="niemcy">Niemcy</option>
+            <option value="ukraina">Ukraina</option>
+		</select></br>
+
+        <button onclick="validateForm()">Submit</button>
+
+    </form>
+
+
+</body>
+
+</html>
